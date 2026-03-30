@@ -22,3 +22,4 @@ O projeto tem como objetivo fortalecer a presença digital da marca e aproximar 
 
 ## 📱 Responsividade
 Layout adaptado para **desktop, tablet e mobile**, garantindo navegação intuitiva em qualquer dispositivo.
+## https://karinalourodev.github.io/Projeto-Cafegin/
