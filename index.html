@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Cafegin</title>
+    <link rel="icon" type="image/png" href="./assets/logo-cafegin.png" />
+    <!-- Importando fontes do Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./assets/logo-cafegin.png" alt="Logo Cafegin" />
+      </div>
+      <button class="menu-toggle">☰</button>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" aria-label="Ir para Início">
+              <img
+                src="./assets/icone-xicara.png"
+                alt="Home"
+                class="icon-cafe"
+              />
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#sobre" aria-label="Ir para Sobre">
+              <img src="./assets/icone-grao.png" alt="" class="icon-grao" />
+              Sobre
+            </a>
+          </li>
+          <li>
+            <a href="#produtos" aria-label="Ir para Produtos">
+              <img src="./assets/icone-moinho.png" alt="" class="icon-moinho" />
+              Produtos
+            </a>
+          </li>
+          <li>
+            <a href="#contato" aria-label="Ir para Contato">
+              <img src="./assets/icone-vapor.png" alt="" class="icon-vapor" />
+              Contato
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Seção inicial (home) -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Cafegin — moído na hora, servido com alma</h1>
+        <p>Do grão à xícara, frescor garantido.</p>
+        <a href="#produtos" class="btn-cta">Conheça nossos cafés</a>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+      <h2>Sobre a Cafegin</h2>
+      <div class="sobre-container">
+        <div class="sobre-item">
+          <h3>🌱 Nossa Essência</h3>
+          <p>
+            O café é mais que uma bebida: é um ritual. Moemos na hora para
+            preservar aroma e frescor.
+          </p>
+        </div>
+        <div class="sobre-item">
+          <h3>🔥 Torra Artesanal</h3>
+          <p>
+            Realçamos notas únicas de cada variedade, do Tradicional encorpado
+            ao Especial complexo.
+          </p>
+        </div>
+        <div class="sobre-item">
+          <h3>🤝 Sustentabilidade</h3>
+          <p>
+            Parcerias diretas com produtores e práticas responsáveis para levar
+            qualidade até você.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos" class="produtos">
+      <h2>Nossos Cafés</h2>
+      <div class="produtos-container">
+        <div class="card">
+          <img src="./assets/250gr.png" alt="Café 250gr" />
+          <h3>Café Moído na Hora</h3>
+          <p>
+            Pequeno no tamanho, grande no sabor... Rende cerca de 25 xícaras.
+          </p>
+          <a href="#" class="btn-comprar">Comprar agora</a>
+        </div>
+        <div class="card">
+          <img src="./assets/500gr.png" alt="Café 500gr" />
+          <h3>Café Moído na Hora</h3>
+          <p>Intensidade e frescor em cada grão... Rende até 50 xícaras.</p>
+          <a href="#" class="btn-comprar">Comprar agora</a>
+        </div>
+        <div class="card">
+          <img src="./assets/1kl.png" alt="1kl" />
+          <h3>Café Moído na Hora</h3>
+          <p>Mais café, mais momentos... Rende até 100 xícaras.</p>
+          <a href="#" class="btn-comprar">Comprar agora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+      <p>Fale conosco de forma rápida pelo WhatsApp.</p>
+      <a
+        href="https://wa.me/5534996959568?text=Ol%C3%A1!%20%20Seja%20bem-vindo(a)%20%C3%A0%20Cafegin..."
+        target="_blank"
+        class="btn-cta"
+      >
+        <img src="./assets/Ícones de balões.png" alt="WhatsApp" /> WhatsApp
+      </a>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>Cafegin — moído na hora, servido com alma.</p>
+        <div class="social-icons">
+          <a href="#"
+            ><img src="./assets/instagram.png" alt="Instagram" /> Instagram</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
